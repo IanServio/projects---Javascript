@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <main>
+        <section id="card-imc">
+            <div id="title"><strong>Calculadora IMC</strong></div>
+            <div id="input">
+                <label for="">Nome: </label>
+                <input type="text" name="name-user" id="name-user">
+            </div>
+            <div id="input">
+                <label for="">Altura: </label>
+                <input type="number" name="altura-user" id="altura-user">
+            </div>
+            <div id="input">
+                <label for="">Peso: </label>
+                <input type="number" name="peso-user" id="peso-user">
+            </div>
+            <button id="btn-calcular" onclick="calcularIMC()">Calcular</button>
+            <div id="res">
+                
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
