@@ -34,5 +34,6 @@ function calcularIMC(){
         }
 
         resultado.innerText =`Ola ${nome},Seu IMC e ${imc}, voce esta com ${peso}kg e esta ${classificacao}`;
+        
     }
 }
